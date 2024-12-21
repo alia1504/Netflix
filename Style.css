@@ -1,0 +1,642 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100px;
+}
+.logo-name{
+    color: red;
+    background-color: black;
+    font-size: 59px;
+    padding: 10px;
+    left: 25px;
+    border-radius: 20px;
+    height:60px;
+}
+.mov{
+    height:40px;
+    width: 110px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    position: absolute;
+    left: 1110px;
+
+}
+.mov a{
+    font-size: 15px;
+    left: 22px;
+    position: absolute;
+    font-size:20px;
+    bottom: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#lang{
+    position: absolute;
+    height: 20px;
+    left: 1230px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid white;
+}
+.in{
+    height:40px;
+    width: 90px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 1380px;
+}
+.in a{
+    font-size: 15px;
+    left: 14px;
+    position: absolute;
+    font-size:20px;
+    bottom: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#pic{
+    height: 600px;
+    width: 1420px;
+    left: 50px;
+    position: relative;
+    border-radius: 30px;
+    opacity: 0.3;
+}
+#line1{
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    left: 410px;
+    top:410px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#line2{
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    left: 480px;
+    top:490px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content p{
+    color: white;
+    position:absolute;
+    font-size: 30px;
+    left: 570px;
+    top: 600px;
+}
+.email{
+    height: 53px;
+    width: 390px;
+    position: relative;
+    background-color:rgba(39,39,39,255);
+    top: 16px;
+    left: 430px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.email p{
+    position: absolute;
+    color: white;
+    left:20px;
+    font-size: 18px;
+}
+.get{
+    height: 53px;
+    width: 160px;
+    position: absolute;
+    background-color:red;
+    top: 751px;
+    left: 840px;
+    border-radius: 30px;
+}
+.get p{
+    color: white;
+    font-family:calibri;
+    font-size: 26px;
+    bottom:-14px;
+    left: 18px;
+    position: absolute;
+}
+/* Trending */
+.trend p{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-family:Roboto;
+    left: 140px;
+    top: 30px;
+}
+#ing{
+    border-radius: 20px;
+    height: 270px;
+    display: inline-block;
+    left: 150px;
+    position:relative;
+    top: 10px;
+    width: 190px;
+    padding: 5px;
+}
+.box1{
+    height: 85px;
+    width: 20px;
+    background-color:rgba(80,77,77,255);
+    position:absolute;
+    left: 1380px;
+    top: 1027px;
+    border-radius: 30px;
+}
+#arrow{
+    left:4px;
+    position:absolute;
+    top: 0px;
+    color: rgb(233, 227, 227);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.only p{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-family:Roboto;
+    left: 140px;
+    top: 30px;
+}
+#flix{
+    border-radius: 20px;
+    height: 270px;
+    display: inline-block;
+    left: 150px;
+    position:relative;
+    top: 10px;
+    width: 190px;
+    /* margin-right: 5px; */
+    padding: 5px;
+}
+.box2{
+    height: 85px;
+    width: 20px;
+    background-color:rgba(80,77,77,255);
+    position:absolute;
+    left: 1380px;
+    top: 1449px;
+    border-radius: 30px;
+}
+.more p{
+    font-size: 40px;
+    position: relative;
+    color: white;
+    font-family: Roboto;
+    left: 140px;
+    top: 30px;
+}
+.stories{
+    height: 170px;
+    width: 300px;
+    background-color: rgba(39,39,39,255);
+    border-radius: 30px;
+    display: inline-block;
+    position: relative;
+    left: 140px;
+    margin-left: 10px;
+}
+.stories p{
+    font-size: 17px;
+    position: absolute;
+    left: 8px;
+    padding: 20px;
+    top:-7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.stories img{
+    left:220px;
+    top: 90px;
+    position: absolute;
+}
+.que p{
+    font-size: 40px;
+    position: relative;
+    color: white;
+    font-family: Roboto;
+    left: 140px;
+    top: 30px;
+}
+.what:hover{
+    background-color: rgb(73, 74, 76);
+}
+.what{
+    height:80px;
+    width: 1250px;
+    background-color: rgba(39,39,39,255);
+    position: relative;
+    border-radius: 20px;
+    left: 144px;
+    margin-bottom:-10px;
+}
+.what p{
+    font-size: 20px;
+    position: relative;
+    top:22px;
+    left: 15px;
+}
+#plus{
+    position:absolute;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    left: 1190px;
+    top:-25px;
+    font-size: 40px;
+}
+.get1{
+    height: 48px;
+    width: 200px;
+    background-color: red;
+    position:relative;
+    border-radius: 40px;
+    top: 55px;
+    left: 660px;
+}
+.get1 p{
+    position: absolute;
+    font-family: Roboto; 
+    color: white;
+    font-size: 20px;
+    left: 47px;
+    bottom: -8px;
+}
+#no{
+    color: white;
+    font-size: 19px;
+    position:relative;
+    font-family:Roboto;
+    left: 170px;
+    top: 70px;
+}
+.block{
+    position: relative;
+    color: white;
+    font-size: 19px;
+    left: 170px;
+    top: 90px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right:180px;
+}
+#lang1{
+    position: absolute;
+    height: 20px;
+    left: 160px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid white;
+    top: 2990px;
+}
+.india{
+    position: relative;
+    color: white;
+    top: 170px;
+    left: 170px;
+    font-size:20px;
+    margin-bottom: 100px;
+}
+/* Responsive Design Formax-width: 700px */
+@media(max-width:700px){
+    /* navbar adjustments */
+    .navbar {
+        height: auto;
+    }
+
+    .logo-name {
+        left:10px ;        
+    }
+    .mov{
+        left: 400px;
+        width: 80px;
+        height: 30px;
+    }
+    .mov a{
+        font-size: 14px;
+        top: 8px;
+        left: 14px;
+    }
+    #lang{
+        left: 490px;
+        height: 10px;
+    }
+    .in{
+        height:30px;
+        width: 80px;
+        left: 580px;
+    }
+    .in a{
+        left: 14px;
+        font-size:15px;
+        top: 7px;
+    }
+    /* Whole content adjustments */
+    .whole-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        overflow-x: hidden;
+    }
+    #pic{
+        left: 20px;
+        height: 390px;
+        width: 640px;
+    }
+    #line1{
+        top: 290px;
+        left: 150px;
+        font-size: 45px;
+    }
+    #line2{
+        top: 340px;
+        left: 180px;
+        font-size: 45px;
+    }
+    .content p{
+        top: 400px;
+        left: 210px;
+        font-size:20px ;
+    }
+    .email{
+        height: 40px;
+        width: 220px;
+        top: 16px;
+        left: 150px;
+    }
+    .email p{
+        left:20px;
+        font-size: 13px;
+        top:0px ;
+    }
+    .get{
+        height: 43px;
+        width: 140px;
+        top: 520px;
+        left: 390px;
+    }
+    .get p{
+        font-size: 20px;
+        left: 18px;
+        bottom: -10px;
+    }
+    /* Trending */
+    .trend p{
+        left: 50px;
+        font-size: 30px;
+    }
+    #ing{
+        left: 40px;
+        height:230px;
+        width: 180px;
+    }
+    .box1{
+        top:990px;
+        left: 620px;
+    }
+    .only p{
+        left: 50px;
+        font-size: 30px;
+    }
+    #flix{
+        left: 40px;
+        height:230px;
+        width: 180px;
+    }
+    .box2{
+        top:1550px;
+        left: 620px;
+    }
+    .more p{
+        left: 50px;
+        font-size: 30px;
+    }
+    .stories{
+        top: 40px;
+        left: 40px;
+        height:170px;
+        width: 290px;
+    }
+    .stories p{
+        font-size: 17px;
+        left: 8px;
+        padding: 20px;
+        top:-7px;
+
+    }
+    .stories img{
+        left:220px;
+        top: 90px;
+    }
+    .que p{
+        left: 50px;
+        font-size: 30px;
+    }
+    .what{
+        top: 25px;
+        left: 50px;
+        width: 600px;
+        height: 50px;
+    }
+    .what p{
+        top: 15px;
+        font-size: 19px;
+        left: 20px;
+    }
+    #plus{
+        left: 550px;
+        font-size: 30px;
+        top: -20px;
+    }
+    .get1{
+        height: 48px;
+        width: 180px;
+        top: 55px;
+        left: 260px;
+    }
+    .get1 p{
+        font-size: 20px;
+        left: 40px;
+        bottom: -8px;
+    }
+    #no{
+        left: 100px;
+    }
+    .block{
+        left: 100px;
+    }
+    #lang1{
+        left: 100px;
+        top: 3200px;
+        height: 16px;
+    }
+    .india{
+        top:140px;
+        left:110px;    
+    }
+}
+/* Responsive Design Formax-width: 500px */
+@media(max-width:500px){
+    /* navbar adjustments */
+    .navbar {
+        height: auto;
+    }
+
+    .logo-name img{
+        left:10px ;
+        height: 50px;        
+    }
+    .mov{
+        left: 250px;
+        width: 70px;
+        height: 25px;
+    }
+    .mov a{
+        font-size: 12px;
+        top: 8px;
+        left: 14px;
+    }
+    #lang{
+        left: 325px;
+        height: 8px;
+    }
+    .in{
+        height:25px;
+        width: 60px;
+        left: 400px;
+    }
+    .in a{
+        left: 10px;
+        font-size:13px;
+        top: 7px;
+    }
+    
+    /* Whole content adjustments */
+    .whole-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        overflow-x: hidden;
+    }
+    #pic{
+        left: 10px;
+        height: 350px;
+        width: 460px;
+    }
+    #line1{
+        top: 290px;
+        left: 120px;
+        font-size: 30px;
+    }
+    #line2{
+        top: 330px;
+        left: 150px;
+        font-size: 30px;
+    }
+    .content p{
+        top: 380px;
+        left: 160px;
+        font-size:15px ;
+    }
+    .email{
+        height: 40px;
+        width: 160px;
+        top: 16px;
+        left: 120px;
+    }
+    .email p{
+        left:20px;
+        font-size: 11px;
+        top:5px ;
+    }
+    .get{
+        height: 41px;
+        width: 110px;
+        top: 482px;
+        left: 300px;
+    }
+    .get p{
+        font-size: 17px;
+        left: 18px;
+        bottom: -5px;
+    }
+    .stories{
+        top: 40px;
+        left: 90px;
+        height:170px;
+        width: 290px;
+    }
+    .what{
+        top: 25px;
+        left: 50px;
+        width: 400px;
+        height:40px;
+    }
+    .what p{
+        top: 15px;
+        font-size: 15px;
+        left: 20px;
+    }
+    #plus{
+        left: 360px;
+        font-size: 25px;
+        top: -20px;
+    }
+    .get1{
+        height: 38px;
+        width: 160px;
+        top: 55px;
+        left: 180px;
+    }
+    .get1 p{
+        font-size: 17px;
+        left: 40px;
+        bottom: -8px;
+    }
+    #no{
+        left: 60px;
+        font-size: 16px;
+    }
+    .block{
+        left: 60px;
+        font-size: 16px;
+    }
+    #lang1{
+        left: 60px;
+        top: 4150px;
+        height: 14px;
+    }
+    .india{
+        top:100px;
+        left:60px;
+        font-size: 18px;    
+    }
+}
+
+
+
+
+
